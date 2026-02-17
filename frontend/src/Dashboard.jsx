@@ -11,6 +11,7 @@ export default function Dashboard() {
       <UserSearch setUser={setUser} />
       <ProfileCard user={user} />
       {user && <RatingChart contests={user.contests} />}
+      
     </div>
   );
 }
